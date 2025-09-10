@@ -1,0 +1,29 @@
+1. Jelaskan multidimensional arrays dan berikan contoh
+multidimensional arrays adalah sebuah array yang berisi satu atau lebih array di dalamnya
+contohnya adalah 
+int [][] randomnumbers = {{50, 70, 90} , {20, 30, 40}};
+System.out.print(randomnumbers[0][0]);
+ini akan mengeprint 50
+
+2. Sebutkan dan Jelaskan 13 method-method string dalam java
+-chatAt() = Returns the character at the specified index (position)
+-concat() = Appends a string to the end of another string
+-contains() = Checks whether a string contains a sequence of characters
+-length() = Returns the length of a specified string
+-substring() = 	Returns a new string which is the substring of a specified string
+-toLowerCase() = Converts a string to lower case letters
+-toUpperCase() = Converts a string to upper case letters
+-split() = Splits a string into an array of substrings
+-replace() = Searches a string for a specified value, 
+             and returns a new string where the specified values are replaced
+-compareTo() = Compares two strings lexicographically
+-equals() = Compares two strings. Returns true if the strings are equal, and false if not
+-format() = Returns a formatted string using the specified locale, format string, and arguments
+-replaceAll() = 	Replaces each substring of this string that matches the given regular 
+expression with the given replacement
+
+3. Sebutkan 2 keuntungan Immutability dalam Java
+a. Keamanan Thread karena  tidak dapat rusak oleh gangguan thread
+
+b. Mudah digunakan dan dapat diprediksi kodenya karena immutability 
+membuat kode yang sederhana dan reliable
